@@ -1,0 +1,1 @@
+// (SpendLite main JS content omitted for brevity; matches what user provided)

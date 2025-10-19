@@ -23,9 +23,7 @@
         <input type="file" id="csvFile" accept=".csv">
         <div class="filters">
           <label for="monthFilter">Filter by Month:</label>
-          <select id="monthFilter">
-            <option value="">All months</option>
-          </select>
+          <select id="monthFilter"><option value="">All months</option></select>
           <button id="clearMonthBtn" class="secondary small">Clear</button>
         </div>
       </div>
@@ -46,7 +44,7 @@
     <section class="card">
       <details id="rulesDetails">
         <summary><h2 style="display:inline">3) Rules</h2></summary>
-        <p>Format: <code>KEYWORD =&gt; CATEGORY</code> (one per line, case-insensitive; first match wins)</p>
+        <p>Format: <code>KEYWORD =&gt; CATEGORY</code></p>
         <div class="app-controls">
           <div class="btn-row">
             <button id="recalculateBtn">Recalculate</button>
@@ -70,7 +68,7 @@
         <table id="transactionsTable" class="zebra"></table>
         <div id="pager" class="pager"></div>
       </div>
-      <p class="tip"><small>Tip: click a <b>category</b> above to filter, or click "+" to add a rule for that merchant.</small></p>
+      <p class="tip"><small>Tip: click a <b>category</b> above to filter, or click "+" to add a rule.</small></p>
     </section>
   </main>
   <footer class="app-footer">Made with ♥ for bright, jolly spreadsheets</footer>
